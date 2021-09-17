@@ -5,13 +5,24 @@ body {
   /* background-image: "graphics/Ellipse 1.png"; */
 }
 
-.parent-top {
+.parent-login {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   margin: 10;
   /* background-color: #332; */
-  border: 1px solid#575757;
+  /* border: 1px solid#575757; */
+  height: 50px;
+}
+
+.parent-top {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  margin: 10;
+  /* background-color: #332; */
+  /* border: 1px solid#575757; */
   height: 30vh;
 }
 
@@ -35,10 +46,11 @@ body {
 
 .parent-bottom-middle {
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   height: 300px;
-  /* border: 1px solid#575757; */
 }
 .parent-bottom-bar {
   display: flex;
@@ -51,7 +63,12 @@ body {
   z-index: 2;
   background-color: rgb(255, 255, 255);
 }
-.child-bottom-ui {
+
+.child-top-1 {
+}
+
+.child-top-2 {
+  align-self: flex-end;
 }
 
 .child-center {
@@ -69,6 +86,9 @@ body {
   z-index: +1;
   position: sticky;
   transform: translate(40%, -750%);
+}
+
+.child-bottom-ui {
 }
 
 .child-bottom-middle {
