@@ -77,15 +77,21 @@ body {
   transform: translate(0%, 10%);
 }
 
-.child-center-child-1 {
+.child-center-timer {
+  background-color: gray;
+  width: 140px;
+  height: 50px;
   z-index: +1;
-  transform: translate(25%, -350%);
+  transform: translate(38%, -370%);
 }
 
-.child-center-child-2 {
-  z-index: +1;
+.child-center-timer-status {
+  background-color: gray;
+  width: 60px;
+  height: 18px;
+  z-index: +2;
   position: sticky;
-  transform: translate(40%, -750%);
+  transform: translate(150%, -1000%);
 }
 
 .child-bottom-ui {
@@ -96,4 +102,18 @@ body {
 }
 
 .child-bottom-bar {
+}
+
+.timer {
+  color: white;
+  font-family: Roboto black;
+  font-size: 48px;
+  text-align: center;
+}
+
+.timer-status {
+  color: white;
+  font-family: Roboto black;
+  font-size: 16px;
+  text-align: center;
 }
