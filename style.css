@@ -17,13 +17,13 @@ body {
 
 .parent-top {
   display: flex;
-  justify-content: end;
+  justify-content: right;
   align-items: center;
   flex-direction: column;
-  margin: 10;
+  margin: 20;
   /* background-color: #332; */
   /* border: 1px solid#575757; */
-  height: 30vh;
+  height: 20vh;
 }
 
 .parent-center {
@@ -78,20 +78,20 @@ body {
 }
 
 .child-center-timer {
-  background-color: gray;
+  background-color: black;
   width: 140px;
   height: 50px;
   z-index: +1;
-  transform: translate(38%, -370%);
+  transform: translate(38%, -410%);
 }
 
 .child-center-timer-status {
-  background-color: gray;
+  background-color: black;
   width: 60px;
   height: 18px;
   z-index: +2;
   position: sticky;
-  transform: translate(150%, -1000%);
+  transform: translate(150%, -1100%);
 }
 
 .child-bottom-ui {
