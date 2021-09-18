@@ -98,13 +98,11 @@ body {
 }
 
 .UI-01 {
-  filter: hue-rotate(180deg);
   filter: brightness(1);
 }
 
 .UI-01:hover {
-  filter: hue-rotate(180deg);
-  filter: brightness(0.5);
+  filter: brightness(0.6);
 }
 
 .child-bottom-middle {
@@ -126,4 +124,13 @@ body {
   font-family: Roboto black;
   font-size: 16px;
   text-align: center;
+}
+
+.UI-02 {
+  filter: brightness(1);
+}
+
+.UI-02:hover {
+  filter: brightness(10);
+  filter: opacity(0.8);
 }

@@ -7,10 +7,14 @@ let time = workMinutes * 60;
 const countdownEl = document.getElementById("countdown");
 const startStop = document
   .getElementById("start-stop")
-  .addEventListener("click", startStopFuncion);
+  .addEventListener("click", startStopFuncion1);
 
-function startStopFuncion() {
+function startStopFuncion1() {
   //TO DO!
+  let startStop1 = (document.getElementById("start-stop").src =
+    "graphics//button-pause.png");
+  // let startStop2 = (document.getElementById("start-stop").src =
+  //   "graphics//button-play.png");
   //zamiana grafiki PLAY -> PAUSE
   //zamiana napisu FOCUS -> PAUSE
   //zatrzymanie funkcji ODLICZANIE na PAUZE
