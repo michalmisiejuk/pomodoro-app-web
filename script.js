@@ -10,12 +10,16 @@ const startStop = document
   .addEventListener("click", startStopFuncion1);
 
 function startStopFuncion1() {
+  let startStop1 = document.getElementById("start-stop");
+  if (startStop1.src.match("graphics//button-play.png")) {
+    startStop1.src = "graphics//button-pause.png";
+  } else {
+    startStop1.src = "graphics//button-play.png";
+  }
+
   //TO DO!
-  let startStop1 = (document.getElementById("start-stop").src =
-    "graphics//button-pause.png");
-  // let startStop2 = (document.getElementById("start-stop").src =
-  //   "graphics//button-play.png");
-  //zamiana grafiki PLAY -> PAUSE
+  //zamiana grafiki PLAY -> PAUSE on lick - done
+  //zamiana grafiki PAUSE -> PLAY on secondlick - done
   //zamiana napisu FOCUS -> PAUSE
   //zatrzymanie funkcji ODLICZANIE na PAUZE
 }
@@ -32,3 +36,5 @@ function updateCountdown() {
   time--;
   time = time < 0 ? 0 : time;
 }
+
+// EXAMPLES OF CODE TO USE
