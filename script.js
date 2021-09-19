@@ -18,10 +18,12 @@ function startStopFuncion1() {
   }
 
   //TO DO!
-  //zamiana grafiki PLAY -> PAUSE on lick - done
-  //zamiana grafiki PAUSE -> PLAY on secondlick - done
-  //zamiana napisu FOCUS -> PAUSE
-  //zatrzymanie funkcji ODLICZANIE na PAUZE
+  // zatrzymanie funkcji ODLICZANIE na PAUZE
+  //DONE
+  // zamiana grafiki PLAY -> PAUSE on lick
+  // zamiana grafiki PAUSE -> PLAY on secondlick
+  //BACKLOG
+  // zamiana napisu FOCUS -> PAUSE
 }
 
 setInterval(updateCountdown, 1000);
